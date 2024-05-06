@@ -1,4 +1,3 @@
-# 实现 fzerotx 程序
 # 编程实现牛顿法与牛顿下山法求解方程
 # 认为迭代判停绝对误差小于 1e-4，且迭代次数不超过 1000000 次
 def Newton(f, df, x0, eps):
@@ -191,5 +190,8 @@ def getRootForBessel():
     # plt.show()
 
 if __name__ == "__main__":
+    print("Subject2:")
     Subject2()
+    print("Subject3:")
     getRootForBessel()
+    print("The result has been saved to ./figures/LAB2.png")

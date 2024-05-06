@@ -69,5 +69,8 @@ def Subject3():
 
 
 if __name__ == '__main__':
+    print("Subject1:")
     Subject1()
+    print("The figure has been saved to ./figures/LAB1.png")
+    print("Subject3:")
     Subject3()
